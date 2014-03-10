@@ -1,8 +1,22 @@
-<div class="jumbotron left">
-	<h1>Cams</h1>
-	<% if user_signed_in? %>
-          # do something
-     <% else %>
-		  # do something else
-    <% end %>  
-</div> <!-- jumbotron left">
+<ul class="jumbotron center outer">
+	<div class="page-header"><h1>Find your crowd!</h1></div>
+	<li class=" list-group-item jumbotron center blue-background">
+		<p>
+			Look up your favorite local clubs and bars and see what's going down before you go!
+		</p>
+		
+		<% if user_signed_in? %>
+			<p>
+				Thank you for sharing in our journey!  Keep your eyes open because Youder is coming sooner than you may think! :)
+			</p>
+		<% else %>
+			<p>
+				We are in the early stages of our project, but will begin our soft launch soon!
+			</p>
+			<p>
+				<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary" %>
+				today and we will keep you updated with our newsletter!
+			</p
+		<% end %>	
+	</li> <!-- jumbotron center" -->
+</ul>

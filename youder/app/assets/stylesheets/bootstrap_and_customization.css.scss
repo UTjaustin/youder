@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Flamenco);
 $body-bg: #ecf0f1; 
-$font-family-sans-serif:'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:'Flamenco';
 $navbar-height:45px;
 $navbar-default-bg: #27ae60;
 $navbar-default-link-color: white;
@@ -11,6 +11,7 @@ $jumbotron-bg: #bdc3c7;
 
 .center {
      text-align: center;
+	 align: center;
 }
 
 .right {
@@ -23,4 +24,36 @@ $jumbotron-bg: #bdc3c7;
 
 .navbar-brand {
      font-weight: bold;
+}
+
+.logo-background {
+	background: url('Youder_Logo_transparent.png') no-repeat;
+	background-size: contain;
+}
+
+.logo-size{
+	width: 200px;
+	height: 67px;
+}
+
+body {
+    background: url('background2.jpg') no-repeat center fixed;
+    background-size: cover;
+	background-color: black;
+}
+
+.blank {
+	opacity: 0; 
+}
+
+.blue-background {
+	background-color:rgba(74,108,155,0.7);
+}
+
+.outer {
+	height: 100%;
+	background-color:rgba(189,195,199,0.5);
+}
+
+.inner {
 }
